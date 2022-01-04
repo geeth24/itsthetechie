@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PortfolioContainer = styled.div`
   color: white;
-  height: 1000px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,6 +81,7 @@ export const PortfolioCardH1 = styled.h1`
   margin-bottom: 16px;
   font-style: italic;
   text-transform: uppercase;
+  text-align: center;
 `;
 
 export const PortfolioCardP = styled.p`

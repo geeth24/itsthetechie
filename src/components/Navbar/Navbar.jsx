@@ -51,7 +51,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-90}
                 >
                   Home
                 </NavLinks>
@@ -63,7 +63,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-90}
                 >
                   About Me
                 </NavLinks>
@@ -75,7 +75,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-90}
                 >
                   Services
                 </NavLinks>
@@ -87,7 +87,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-90}
                 >
                   Portfolio
                 </NavLinks>
@@ -99,7 +99,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-90}
                 >
                   Contact Me
                 </NavLinks>
