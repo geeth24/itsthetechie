@@ -63,6 +63,11 @@ export const PortfolioCards = styled.div`
     padding: 0 20px;
     width: 65%;
   }
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    width: 95%;
+    }
 `;
 
 export const PortfolioCard = styled.div`
