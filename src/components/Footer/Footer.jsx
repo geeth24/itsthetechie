@@ -42,7 +42,7 @@ const Footer = () => {
             <SocialLogo
               to="/"
               smooth={true}
-              duration={500}
+              duration={700}
               spy={true}
               exact="true"
               offset={-80}

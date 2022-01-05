@@ -2,7 +2,6 @@ import React from "react";
 import { Button } from "../ButtonElement";
 import Image from "../../images/IMG_2233.png";
 
-
 import {
   InfoContainer,
   InfoWrapper,
@@ -17,7 +16,6 @@ import {
   Img,
   BtnWrap,
 } from "./InfoElements";
-
 
 const Info = ({
   lightBg,
@@ -38,10 +36,7 @@ const Info = ({
 }) => {
   return (
     <>
-      <InfoContainer
-        lightBg={lightBg}
-        id={id}
-      >
+      <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
@@ -55,7 +50,7 @@ const Info = ({
                   <Button
                     to="portfolio"
                     smooth={true}
-                    duration={500}
+                    duration={700}
                     spy={true}
                     exact="true"
                     offset={-80}

@@ -48,7 +48,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="home"
                   smooth={true}
-                  duration={500}
+                  duration={700}
                   spy={true}
                   exact="true"
                   offset={-90}
@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="aboutme"
                   smooth={true}
-                  duration={500}
+                  duration={700}
                   spy={true}
                   exact="true"
                   offset={-90}
@@ -72,7 +72,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="services"
                   smooth={true}
-                  duration={500}
+                  duration={700}
                   spy={true}
                   exact="true"
                   offset={-90}
@@ -84,7 +84,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="portfolio"
                   smooth={true}
-                  duration={500}
+                  duration={700}
                   spy={true}
                   exact="true"
                   offset={-90}
@@ -96,7 +96,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="contactme"
                   smooth={true}
-                  duration={500}
+                  duration={700}
                   spy={true}
                   exact="true"
                   offset={-90}
@@ -105,7 +105,6 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
             </NavMenu>
-           
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
