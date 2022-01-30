@@ -10,6 +10,8 @@ import {
   PortfolioCardP,
 } from "./PortfolioElements";
 
+import { Link } from "@chakra-ui/react";
+
 import BurningBridges from "../../images/burningbridges.jpg";
 import Boyfriend from "../../images/boyfriend.jpg";
 import Lights from "../../images/lights.jpg";
@@ -21,7 +23,7 @@ const Portfolio = () => {
         <PortfolioWrapper>
           <PortfolioH1>Portfolio</PortfolioH1>
           <PortfolioCards>
-            <PortfolioCard>
+            <PortfolioCard href="https://bb.itsthetechie.com">
               <PortfolioIcon src={BurningBridges} type="image/jpg" />
               <PortfolioCardH1>Burning Bridges</PortfolioCardH1>
               <PortfolioCardP>
