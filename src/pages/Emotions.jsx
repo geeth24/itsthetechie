@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Text, VStack } from "@chakra-ui/react";
+import { Box, Flex, Image, Link, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 import Footer from "../components/Footer/Footer";
@@ -130,7 +130,7 @@ export const EmotionsContent = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-export const MediaIcons = styled.a`
+export const MediaIcons = styled.div`
   color: #fff;
   font-size: 100px;
 `;
