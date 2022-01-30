@@ -10,8 +10,6 @@ import {
   PortfolioCardP,
 } from "./PortfolioElements";
 
-import { Link } from "@chakra-ui/react";
-
 import BurningBridges from "../../images/burningbridges.jpg";
 import Boyfriend from "../../images/boyfriend.jpg";
 import Lights from "../../images/lights.jpg";
