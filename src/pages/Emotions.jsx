@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Link, Text, VStack } from "@chakra-ui/react";
+import { Box, Flex, Image, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 import Footer from "../components/Footer/Footer";
@@ -17,13 +17,7 @@ const Emotions = () => {
           <Flex justify="center" align="center" direction="column">
             <Box justifyContent="center">
               <VStack spacing={8}>
-                <Box
-                  bg="#072154"
-                  rounded="lg"
-                  p={1}
-                  shadow={2}
-                  
-                >
+                <Box bg="#072154" rounded="lg" p={1} shadow={2}>
                   <Image
                     src={Art}
                     alt="emotions"
