@@ -17,13 +17,21 @@ const Emotions = () => {
           <Flex justify="center" align="center" direction="column">
             <Box justifyContent="center">
               <VStack spacing={8}>
-                <Image
-                  src={Art}
-                  alt="emotions"
-                  boxSize="300px"
-                  objectFit="cover"
-                  borderRadius="10px"
-                />
+                <Box
+                  bg="#072154"
+                  rounded="lg"
+                  p={1}
+                  shadow={2}
+                  
+                >
+                  <Image
+                    src={Art}
+                    alt="emotions"
+                    boxSize="300px"
+                    objectFit="cover"
+                    borderRadius="10px"
+                  />
+                </Box>
                 <Text
                   fontSize="2xl"
                   fontWeight="bold"
