@@ -79,10 +79,16 @@ export const EmotionsContainer = styled.div`
   background-color: black;
   display: flex;
   justify-content: center;
-  padding: 30px 30px;
+  padding: 30px 50px;
   height: 100vh;
   position: relative;
   z-index: 1;
+
+  @media (max-width: 768px) {
+    padding: 30px 15px;
+    height: 1200px;
+  }
+
 
   :before {
     content: "";
@@ -100,6 +106,7 @@ export const EmotionsContainer = styled.div`
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%); */
     z-index: 2;
   }
+  
 `;
 
 export const EmotionsBg = styled.div`
