@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Link, Text, VStack } from "@chakra-ui/react";
+import { Box, Flex, HStack, Image, Link, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 import Footer from "../components/Footer/Footer";
@@ -36,18 +36,25 @@ const Emotions = () => {
                 </Text>
                 <VStack spacing={12}>
                   <Link href="/presave/emotions" target="_blank">
-                    <Text
-                      fontSize="2xl"
-                      fontWeight="bold"
-                      color="white"
-                      textTransform="uppercase"
-                    >
-                      Pre Save
-                    </Text>
+                    <VStack>
+                      <FaSpotify size="24px" color="white" />
+
+                      <Text
+                        fontSize="18px"
+                        fontWeight="bold"
+                        color="white"
+                        textTransform="uppercase"
+                        align="center"
+                      >
+                        Click Here to
+                        <br /> Pre Add on Spotify
+                      </Text>
+                    </VStack>
                   </Link>
                   <Link
                     href="https://open.spotify.com/album/52gDV7XrJXle2XlxsXww9e"
                     target="_blank"
+                    _disabled={true}
                   >
                     <MediaIcons>
                       <FaSpotify />
@@ -56,12 +63,17 @@ const Emotions = () => {
                   <Link
                     href="https://music.apple.com/album/1605253549"
                     target="_blank"
+                    _disabled={true}
                   >
                     <MediaIcons>
                       <FaApple />
                     </MediaIcons>
                   </Link>
-                  <Link href="https://youtu.be/njTUkpUMJ_M" target="_blank">
+                  <Link
+                    href="https://youtu.be/njTUkpUMJ_M"
+                    target="_blank"
+                    _disabled={true}
+                  >
                     <MediaIcons>
                       <FaYoutube />
                     </MediaIcons>
@@ -69,6 +81,7 @@ const Emotions = () => {
                   <Link
                     href="https://www.instagram.com/itsthetechie/"
                     target="_blank"
+                    _disabled={true}
                   >
                     <MediaIcons>
                       <FaInstagram />
