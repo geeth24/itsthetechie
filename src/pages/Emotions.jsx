@@ -35,6 +35,16 @@ const Emotions = () => {
                   Emotions (feat. MRAV)
                 </Text>
                 <VStack spacing={12}>
+                  <Link href="/presave/emotions" target="_blank">
+                    <Text
+                      fontSize="2xl"
+                      fontWeight="bold"
+                      color="white"
+                      textTransform="uppercase"
+                    >
+                      Pre Save
+                    </Text>
+                  </Link>
                   <Link
                     href="https://open.spotify.com/album/52gDV7XrJXle2XlxsXww9e"
                     target="_blank"
@@ -89,7 +99,6 @@ export const EmotionsContainer = styled.div`
     height: 1200px;
   }
 
-
   :before {
     content: "";
     position: absolute;
@@ -106,7 +115,6 @@ export const EmotionsContainer = styled.div`
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%); */
     z-index: 2;
   }
-  
 `;
 
 export const EmotionsBg = styled.div`

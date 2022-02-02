@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/presave/emotions",
+      "destination": "http://distrokid.com/spotify/auth/?action=hyperfollow&sessionid=distrokid%5F9a189d04%2Dc060%2D43fb%2D8038%2Dcea6830b539d%5F0&artistNameShortcut=thetechie&albumIdShortcut=emotions-feat-mrav",
+      "statusCode": 301
+    }
+  ]
+}
