@@ -1,4 +1,4 @@
-import { Box, Flex, HStack, Image, Link, Text, VStack } from "@chakra-ui/react";
+import { Box, Flex, Image, Link, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 import Footer from "../components/Footer/Footer";
