@@ -35,7 +35,7 @@ const Emotions = () => {
                   Emotions (feat. MRAV)
                 </Text>
                 <VStack spacing={12}>
-                  <Link href="/presave/emotions" target="_blank">
+                  {/* <Link href="/presave/emotions" target="_blank">
                     <VStack>
                       <FaSpotify size="24px" color="white" />
 
@@ -50,7 +50,7 @@ const Emotions = () => {
                         <br /> Pre Add on Spotify
                       </Text>
                     </VStack>
-                  </Link>
+                  </Link> */}
                   <Link
                     href="https://open.spotify.com/album/52gDV7XrJXle2XlxsXww9e"
                     target="_blank"
@@ -103,7 +103,7 @@ export const EmotionsContainer = styled.div`
   display: flex;
   justify-content: center;
   padding: 30px 50px;
-  height: 100vh;
+  height: 1200px;
   position: relative;
   z-index: 1;
 
