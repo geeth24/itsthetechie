@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../images/hero-bg.png";
+import Image from "../../images/_MG_0548.JPG";
 import { FaApple, FaInstagram, FaSpotify, FaYoutube } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Parallax from "react-rellax";
