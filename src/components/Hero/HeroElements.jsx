@@ -38,8 +38,8 @@ export const HeroBg = styled.div`
   overflow: hidden;
 `;
 
-export const HeroBgImage = styled.img`
-  background-color: #0000000;
+export const HeroBgVideo = styled.video`
+  background-color: #000000;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;

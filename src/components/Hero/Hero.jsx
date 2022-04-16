@@ -1,5 +1,6 @@
 import React from "react";
-import Image from "../../images/_MG_0548.JPG";
+// import Image from "../../images/_MG_0548.JPG";
+import Video from "../../videos/Studio.mp4";
 import { FaApple, FaInstagram, FaSpotify, FaYoutube } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Parallax from "react-rellax";
@@ -7,7 +8,7 @@ import Parallax from "react-rellax";
 import {
   HeroContainer,
   HeroBg,
-  HeroBgImage,
+  HeroBgVideo,
   HeroContent,
   HeroH1,
   TextContent,
@@ -19,7 +20,7 @@ const Hero = () => {
   return (
     <HeroContainer id="home">
       <HeroBg></HeroBg>
-      <HeroBgImage src={Image} type="image/png" />
+      <HeroBgVideo src={Video} autoPlay loop muted></HeroBgVideo>
 
       <HeroContent>
         <Parallax speed={-3} zIndex={1}>
