@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../ButtonElement";
-import Image from "../../images/IMG_2233.png";
 
 import {
   InfoContainer,
@@ -65,7 +64,7 @@ const Info = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={Image} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>

@@ -1,4 +1,4 @@
-import Image from "../../images/IMG_2935.jpg";
+import Image from "../../images/IMG_0300_2.jpg";
 export const homeObjOne = {
   id: "aboutme",
   lightBg: false,
@@ -11,7 +11,7 @@ export const homeObjOne = {
   description2: " Scroll down to see some of my projects.",
   buttonLabel: "Learn More",
   imgStart: true,
-  img: {Image},
+  img: require("../../images/IMG_0300_2.jpg"),
   alt: "car",
   dark: true,
   primary: true,
