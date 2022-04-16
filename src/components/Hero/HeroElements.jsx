@@ -71,7 +71,7 @@ export const HeroH1 = styled.h1`
   opacity: 0.5;
 
   @media screen and (max-width: 768px) {
-    font-size: 85px;
+    font-size: 75px;
   }
 
   @media screen and (max-width: 480px) {
