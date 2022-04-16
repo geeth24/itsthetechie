@@ -1,4 +1,3 @@
-import Image from "../../images/IMG_0300_2.jpg";
 export const homeObjOne = {
   id: "aboutme",
   lightBg: false,
