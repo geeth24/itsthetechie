@@ -11,8 +11,6 @@ import {
 } from "./PortfolioElements";
 
 import BurningBridges from "../../images/burningbridges.jpg";
-import Boyfriend from "../../images/boyfriend.jpg";
-import Lights from "../../images/lights.jpg";
 import Emotions from "../../images/emotions-art.png";
 import HIFY from "../../images/hify-art.JPEG";
 
