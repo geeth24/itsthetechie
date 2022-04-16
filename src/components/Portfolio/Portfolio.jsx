@@ -13,6 +13,8 @@ import {
 import BurningBridges from "../../images/burningbridges.jpg";
 import Boyfriend from "../../images/boyfriend.jpg";
 import Lights from "../../images/lights.jpg";
+import Emotions from "../../images/emotions-art.png";
+import HIFY from "../../images/hify-art.JPEG";
 
 const Portfolio = () => {
   return (
@@ -21,22 +23,24 @@ const Portfolio = () => {
         <PortfolioWrapper>
           <PortfolioH1>Portfolio</PortfolioH1>
           <PortfolioCards>
-            <PortfolioCard href="https://bb.itsthetechie.com">
+            <PortfolioCard to="/hearitfromyou">
+              <PortfolioIcon src={HIFY} type="image/jpg" />
+              <PortfolioCardH1>Hear It From You</PortfolioCardH1>
+              <PortfolioCardP>
+                Produced by me, Featuring Sarfaroj
+              </PortfolioCardP>
+            </PortfolioCard>
+            <PortfolioCard to="/emotions">
+              <PortfolioIcon src={Emotions} type="image/jpg" />
+              <PortfolioCardH1>Emotions</PortfolioCardH1>
+              <PortfolioCardP>Produced by me, Featuring MRAV</PortfolioCardP>
+            </PortfolioCard>
+            <PortfolioCard to="/burningbridges">
               <PortfolioIcon src={BurningBridges} type="image/jpg" />
               <PortfolioCardH1>Burning Bridges</PortfolioCardH1>
               <PortfolioCardP>
                 Produced by me, Featuring ZNO & Itihas
               </PortfolioCardP>
-            </PortfolioCard>
-            <PortfolioCard>
-              <PortfolioIcon src={Boyfriend} type="image/jpg" />
-              <PortfolioCardH1>Boyfriend</PortfolioCardH1>
-              <PortfolioCardP>Produced by me, Featuring Itihas</PortfolioCardP>
-            </PortfolioCard>
-            <PortfolioCard>
-              <PortfolioIcon src={Lights} type="image/jpg" />
-              <PortfolioCardH1>Lights</PortfolioCardH1>
-              <PortfolioCardP>Produced by me, Featuring MRAV</PortfolioCardP>
             </PortfolioCard>
           </PortfolioCards>
         </PortfolioWrapper>

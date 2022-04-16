@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const PortfolioContainer = styled.div`
@@ -55,7 +56,7 @@ export const PortfolioCards = styled.div`
 
   @media screen and (max-width: 1200px) {
     grid-template-columns: 1fr 1fr;
-    width: 75%;
+    width: 65%;
   }
 
   @media screen and (max-width: 768px) {
@@ -67,10 +68,10 @@ export const PortfolioCards = styled.div`
     grid-template-columns: 1fr;
     padding: 0 20px;
     width: 95%;
-    }
+  }
 `;
 
-export const PortfolioCard = styled.div`
+export const PortfolioCard = styled(Link)`
   background: transparent;
   display: flex;
   flex-direction: column;
