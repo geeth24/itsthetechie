@@ -61,7 +61,7 @@ export const PortfolioCards = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
-    width: 65%;
+    width: 75%;
   }
   @media screen and (max-width: 480px) {
     grid-template-columns: 1fr;
@@ -106,11 +106,13 @@ export const PortfolioIcon = styled.img`
   align-items: center;
   justify-content: center;
   transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  border: 2px solid #3670ff;
 
   &:hover {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
-    transform: scale(0.9);
+    transform: scale(1.1);
     overflow: hidden;
     box-shadow: 0px 0px 10px #3670ff;
   }
