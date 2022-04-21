@@ -8,6 +8,7 @@ const SongLink = ({
   ArtBg,
   Art,
   title,
+  artist,
   presavePrefix,
   releaseDate,
   spotifyURL,
@@ -104,14 +105,24 @@ const SongLink = ({
                     borderRadius="10px"
                   />
                 </Box>
-                <Text
-                  fontSize="2xl"
-                  fontWeight="bold"
-                  color="white"
-                  textTransform="uppercase"
-                >
-                  {title}
-                </Text>
+                <VStack spacing={0}>
+                  <Text
+                    fontSize="2xl"
+                    fontWeight="bold"
+                    color="white"
+                    textTransform="uppercase"
+                  >
+                    {title}
+                  </Text>
+                  <Text
+                    fontSize="2xl"
+                    fontWeight="bold"
+                    color="white"
+                    textTransform="uppercase"
+                  >
+                    (feat. {artist})
+                  </Text>
+                </VStack>
                 <VStack spacing={12}>{links}</VStack>
               </VStack>
             </Box>
