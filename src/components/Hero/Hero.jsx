@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 // import Image from "../../images/_MG_0548.JPG";
 import Video from "../../videos/Studio.mp4";
 import { FaApple, FaInstagram, FaSpotify, FaYoutube } from "react-icons/fa";
@@ -16,9 +16,13 @@ import {
 } from "./HeroElements";
 
 const Hero = () => {
+  const videoRef = useRef(undefined);
+  useEffect(() => {
+    videoRef.current.defaultMuted = true;
+  });
   return (
     <HeroContainer id="home">
-      <HeroBgVideo src={Video} autoPlay loop muted />
+      <HeroBgVideo src={Video} ref={videoRef} loop autoPlay muted playsInline />
 
       <HeroContent>
         <Parallax speed={-3} zIndex={1}>
