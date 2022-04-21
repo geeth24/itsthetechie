@@ -7,7 +7,6 @@ import Parallax from "react-rellax";
 
 import {
   HeroContainer,
-  HeroBg,
   HeroBgVideo,
   HeroContent,
   HeroH1,
@@ -19,8 +18,7 @@ import {
 const Hero = () => {
   return (
     <HeroContainer id="home">
-      <HeroBg></HeroBg>
-      <HeroBgVideo src={Video} autoPlay loop muted></HeroBgVideo>
+      <HeroBgVideo src={Video} autoPlay loop muted />
 
       <HeroContent>
         <Parallax speed={-3} zIndex={1}>
