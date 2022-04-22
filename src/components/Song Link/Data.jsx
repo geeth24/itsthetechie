@@ -16,7 +16,7 @@ export const hifyObject = {
   title: "Hear It From You",
   artist: "Sarfaroj",
   presavePrefix: "hearitfromyou",
-  releaseDate: new Date(2022, 3, 22),
+  releaseDate: new Date(2022, 3, 21),
   spotifyURL: "https://open.spotify.com/album/1qIkoct1kSbkHauzyIifYt",
   appleURL: "https://music.apple.com/album/1614157346",
   youtubeURL: "",
