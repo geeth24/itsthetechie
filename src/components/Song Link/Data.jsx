@@ -19,5 +19,6 @@ export const hifyObject = {
   releaseDate: new Date(2022, 3, 21),
   spotifyURL: "https://open.spotify.com/album/1qIkoct1kSbkHauzyIifYt",
   appleURL: "https://music.apple.com/album/1614157346",
-  youtubeURL: "",
+  youtubeURL:
+    "https://www.youtube.com/watch?v=DuFFj8AFmcI&list=OLAK5uy_mqVDw0xIqVhlYluuCWQlveim_A2X8x3Js",
 };
