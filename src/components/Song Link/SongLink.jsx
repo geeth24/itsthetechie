@@ -46,11 +46,11 @@ const SongLink = ({
             <FaApple />
           </MediaIcons>
         </Link>
-        <Link href={youtubeURL} target="_blank">
+        {/* <Link href={youtubeURL} target="_blank">
           <MediaIcons>
             <FaYoutube />
           </MediaIcons>
-        </Link>
+        </Link> */}
         <Link href="https://www.instagram.com/geethsg7/" target="_blank">
           <MediaIcons>
             <FaInstagram />
