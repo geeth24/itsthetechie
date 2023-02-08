@@ -9,8 +9,9 @@ import {
   ServicesIcon,
   ServicesCardH1,
 } from "./ServicesElements";
-import { FaDrum, FaSlidersH } from "react-icons/fa";
-
+import { FaDrum } from "react-icons/fa";
+import { GiRoundKnob, GiSettingsKnobs } from "react-icons/gi";
+import { MdDesignServices } from "react-icons/md";
 const Services = () => {
   return (
     <>
@@ -20,17 +21,28 @@ const Services = () => {
 
           <ServicesCards>
             <ServicesCard>
-              
               <ServicesIcon>
                 <FaDrum />
               </ServicesIcon>
-              <ServicesCardH1>Beat Making</ServicesCardH1>
+              <ServicesCardH1>Beats</ServicesCardH1>
             </ServicesCard>
             <ServicesCard>
               <ServicesIcon>
-                <FaSlidersH />
+                <GiRoundKnob />
               </ServicesIcon>
-              <ServicesCardH1>Mixing & Mastering</ServicesCardH1>
+              <ServicesCardH1>Mixing</ServicesCardH1>
+            </ServicesCard>
+            <ServicesCard>
+              <ServicesIcon>
+                <GiSettingsKnobs />
+              </ServicesIcon>
+              <ServicesCardH1>Mastering</ServicesCardH1>
+            </ServicesCard>
+            <ServicesCard>
+              <ServicesIcon>
+                <MdDesignServices />
+              </ServicesIcon>
+              <ServicesCardH1>Design</ServicesCardH1>
             </ServicesCard>
           </ServicesCards>
         </ServicesWrapper>
